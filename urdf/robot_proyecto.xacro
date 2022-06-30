@@ -179,18 +179,20 @@
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
-<joint name="Revolucion2" type="continuous">
+<joint name="Revolucion2" type="revolute">
   <origin xyz="0.0 0.5 0.0" rpy="0 0 0"/>
   <parent link="rot2_1"/>
   <child link="rot3_1"/>
   <axis xyz="-1.0 0.0 0.0"/>
+  <limit upper="2.7" lower="-2.7" effort="100" velocity="100"/>
 </joint>
 
-<joint name="Revolucion3" type="continuous">
+<joint name="Revolucion3" type="revolute">
   <origin xyz="0.13 0.000627 0.2" rpy="0 0 0"/>
   <parent link="rot1_1"/>
   <child link="rot2_1"/>
   <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="4.14" lower="-1.0" effort="100" velocity="100"/>
 </joint>
 
 <joint name="Revolucion4" type="continuous">
@@ -205,7 +207,7 @@
   <parent link="slider2_1"/>
   <child link="slider3_1"/>
   <axis xyz="0.0 0.0 1.0"/>
-  <limit upper="0.0" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="0.48" lower="0.0" effort="100" velocity="100"/>
 </joint>
 
 <joint name="Corredera6" type="prismatic">
@@ -213,7 +215,7 @@
   <parent link="slider1_1"/>
   <child link="slider2_1"/>
   <axis xyz="1.0 0.0 0.0"/>
-  <limit upper="0.0" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="0.85" lower="-0.85" effort="100" velocity="100"/>
 </joint>
 
 <joint name="Corredera7" type="prismatic">
@@ -221,7 +223,7 @@
   <parent link="base_link"/>
   <child link="slider1_1"/>
   <axis xyz="0.0 1.0 0.0"/>
-  <limit upper="0.0" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="0.9" lower="-0.9" effort="100" velocity="100"/>
 </joint>
 
 </robot>
