@@ -3,7 +3,7 @@
 
 <transmission name="Revolucion1_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución1">
+  <joint name="Revolucion1">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
   <actuator name="Revolucion1_actr">
@@ -14,7 +14,7 @@
 
 <transmission name="Revolucion2_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución2">
+  <joint name="RevoluciÃ³n2">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
   <actuator name="Revolucion2_actr">
@@ -25,7 +25,7 @@
 
 <transmission name="Revolucion3_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución3">
+  <joint name="RevoluciÃ³n3">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
   <actuator name="Revolucion3_actr">
@@ -36,7 +36,7 @@
 
 <transmission name="Revolucion4_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución4">
+  <joint name="RevoluciÃ³n4">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
   <actuator name="Revolucion4_actr">
