@@ -22,6 +22,11 @@
 <material name="yellow">
   <color rgba="1.0 1.0 0.0 1.0"/> <!-- rviz BLUE color -->
 </material>
-
+<material name="sky_blue">
+  <color rgba="0.0 1.0 1.0 1.0"/> <!-- rviz BLUE color -->
+</material>
+<material name="orange">
+  <color rgba="1.0 0.5 0.0 1.0"/> <!-- rviz BLUE color -->
+</material>
 
 </robot>
