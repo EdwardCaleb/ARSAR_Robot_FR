@@ -5,4 +5,23 @@
   <color rgba="0.700 0.700 0.700 1.000"/>
 </material>
 
+<!-- COLOR DEFINITION -->
+<!-- this color take effect only on rviz -->
+<material name="white">
+  <color rgba="1.0 1.0 1.0 1.0"/> <!-- rviz white color -->
+</material>
+<material name="red">
+  <color rgba="1.0 0.0 0.0 1.0"/> <!-- rviz red color -->
+</material>
+<material name="green">
+  <color rgba="0.0 1.0 0.0 1.0"/> <!-- rviz green color -->
+</material>
+<material name="blue">
+  <color rgba="0.0 0.0 1.0 1.0"/> <!-- rviz BLUE color -->
+</material>
+<material name="yellow">
+  <color rgba="1.0 1.0 0.0 1.0"/> <!-- rviz BLUE color -->
+</material>
+
+
 </robot>
