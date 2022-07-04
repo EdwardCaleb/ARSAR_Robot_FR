@@ -5,21 +5,21 @@ robot_proyecto_controller:
     publish_rate: 50
 
   # Position Controllers --------------------------------------
-  Revolución1_position_controller:
+  Revolucion1_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución1
+    joint: Revolucion1
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución2_position_controller:
+  Revolucion2_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución2
+    joint: Revolucion2
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución3_position_controller:
+  Revolucion3_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución3
+    joint: Revolucion3
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución4_position_controller:
+  Revolucion4_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución4
+    joint: Revolucion4
     pid: {p: 100.0, i: 0.01, d: 10.0}
   Corredera5_position_controller:
     type: effort_controllers/JointPositionController
