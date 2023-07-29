@@ -1,6 +1,6 @@
 # Robot ARSAR - Proyecto FR
 
-El actual proyecto forma parte del curso Fundamentos de Robótica de la Universidad de Ingeniería y Tecnología - UTEC en Perú.
+El actual proyecto forma parte del proyecto final del curso Fundamentos de Robótica de la Universidad de Ingeniería y Tecnología - UTEC en Perú.
 
 Se diseñó un robot de asistencia para talleres mecánicos denominado Automobile Repair Shop Assistant Robot (ARSAR). Este robot es un robot manipulador de base fija de 7 grados de libertad. Cuenta con 3 articulaciones prismáticas y 4 articulaciones de revolución. Las articulaciones prismáticas brindan una movilidad del tipo robot cartesiano, mientras que las articulaciones de revolución forman una cadena cinemática cuya base se apoya al final al final de la tercera articulación prismática.
 
